@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>IXD502 Aaron McAlinden | Designing Addiction</title>
+        <meta name="description" content=" An essay on how digital products manipulate our psychology to nurture habitual behaviour.">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    
+    
+    
+    
+    <body>
+    
+        
+        
+        
+        
+        
+        
+        <!--
+===========================================
+==============   SECTION 1   ==============
+===========================================
+-->
+        
+        
+   
+        
+        
+       <nav class="menu">
+        
+        <div class="side_menu">
+            
+            <div class="side_menu_content">
+                <div class="menu_title">
+                <h1>Designing Addiction</h1>
+                <h2>
+                How do digital products hack the human mind to create habitual behaviours?
+                </h2>
+                </div>
+                <a href="#intro">Introduction</a>
+      <a href="#psych">The Psychology of Delight</a>
+      <a href="#manip">Manipulative by Design</a>
+      <a href="#trigger">The Trigger</a>
+            <a href="#action">The Action</a>
+            <a href="#vareward">Variable Reward</a>
+            <a href="#invest">Investment</a>
+            <a href="#conclusion">Conclusion</a>
+            <a href="#bibliography">Bibliography</a>
+        </div>
+            
+        </div>
+            
+        <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#intro" onclick="closeNav()">Introduction</a>
+  <a href="#psych" onclick="closeNav()">The Psychology of Delight</a>
+  <a href="#manip" onclick="closeNav()">Manipulative by Design</a>
+  <a href="#trigger" onclick="closeNav()">The Trigger</a>
+        <a href="#action" onclick="closeNav()">The Action</a>
+        <a href="#vareward" onclick="closeNav()">Variable Reward</a>
+        <a href="#invest" onclick="closeNav()">Investment</a>
+        <a href="#conclusion" onclick="closeNav()">Conclusion</a>
+        <a href="#bib" onclick="closeNav()">Bibliography</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">
+<img class="hamburger" src="images/hamburger3.svg">            
+</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+ 
+</div>
+            
+        </nav> 
+        
+        
+        
+  
+        
+        
+        
+     <span class="content_wrap">   
+    
+    <section>
+        
+        
+        
+        
+        
+        <header> 
+
+        <div class="card , header_card">
+
+            <div class="card_img , header_img">
+                <img class="like_love lovetab" src="images/SVG/love_tab.svg">
+                <img class="brain" src="images/sad_brain.svg">
+                <img class="happy_brain invisible" src="images/happy_brain.svg">
+            </div>
+
+            
+            <div class="card_content_lower">
+            
+            
+                
+                
+                <div class="interactive_buttons">
+                    
+                        <div class="love , love_vis">
+                            <a onclick="clickCounter()" type="button">
+                            <img class= "love_btn" src="images/SVG/love.svg">
+                            <img class="colors invisible" src="images/love_color.svg">
+                            </a>
+                        </div>
+                    
+                    
+                    
+                        
+                        
+                    <div class="like">
+                        <a onclick="clickCounter()">
+                            <img class="like,  love_btn" src="images/SVG/like.svg">
+                            <img class="colors invisible" src="images/like_color.svg">
+                            
+                        </a>
+                    </div>
+                    
+                    
+                    <div class="like" id="result"></div>
+                    
+                    
+                </div>
+                
+                
+
+                <h1>Designing Addiction</h1>
+                <h2>
+                    How do digital products hack the human mind to create habitual behaviours?
+                </h2>
+
+        
+            </div> 
+            
+            
+            
+            
+
+        </div>
+            
+            
+            
+        <a href="#intro" >
+        <div class="button" id="button">
+            <p>Click to find out</p>
+         </div>
+         </a>
+            
+            
+<!--
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+-->
+
+
+        </header>
+        
+        
+
+    </section>
+        
+    
+        
+        
+        
+    <span class="content_wrap2" id="content_wrapper2">    
+        
+<!--
+===========================================
+==============   SECTION 2   ==============
+===========================================
+-->
+        
+        
+        
+    <section>
+        
+        <div class="card" id="intro">
+            
+            <div class="card_img section2_img">
+            
+               <img class="bank"
+                    src="images/bank.png">
+                
+            
+            </div>
+        
+            
+            
+            <div class="card_content_lower">
+            
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+                    
+                        <div class="like results" id="result"></div>
+
+
+                    </div>
+           
+                
+                <h1>Introduction</h1>
+                
+                <p>
+                By interacting with the “click to find out button” you experienced just one of techniques that product designers employ to encourage desired behaviours in their users. Product designers use techniques like these to nurture desired behaviours in users, to create habits. The presence of a trigger fuels an innate curiosity and desire, to perform the desired action in anticipation of a reward. During anticipation of a reward levels of dopamine in the brain surge which fuels the desire to act, it is this same mechanism that causes us to drink when thirsty and to eat when hungry. Through these techniques product designers encourage habitual and sometimes addictive behaviours. By understanding these techniques they may be employed to enhance human capabilities rather than nurture addictive behaviour.
+                </p>
+                
+                
+                <p>
+                    In the past decade we have transitioned from a society that lives and performs our many daily activities and tasks in a primarily physical world, to a society that spends much of our time in digital environments. Where once we managed our personal finances within the regal, marble clad confines of bank buildings, we now carry out most of our banking online, in digital spaces at any time, from any location. This digital phenomenon is not merely confined to our banking practices. The ways in which we socialise, inform ourselves, shop, meet new people and interact with one another has seen a similar upheaval. 
+                </p>
+                
+                <p>
+                As of this year, the average person in the United Kingdom spends twenty-four hours online each week, equating to fifty-two days in a year. If these statistics remain constant, it could mean that the average person in the UK could spend up to eleven years online over a lifespan of eighty years.
+                </p>
+                
+                
+                <p>
+                This digital awakening has ushered in a modern-day gold rush to create the most usable, “sticky”, habit-forming, digital product. Digital product companies have doubled down on design to make their products more appealing to users, with the goal of winning and retaining users. The term user experience has become a popular buzzword throughout the tech world, as digital product companies seek to create perceived value amongst their users. 
+                </p>
+                
+                <p>
+                Such an intense focus on retaining users has resulted in massive leaps forward in usability, it has given rise to a landscape of products that are easy to use and that users enjoy engaging with; with delightful user experiences that keep users coming back for more. Digital product companies and digital product designers have developed methods by which to nurture habitual behaviour in their users. Hacking human psychology, exploiting the human reward system and appealing to human emotions and motivations to keep users hooked on their products.
+                </p>
+                
+                
+                
+                
+                
+            </div>
+            
+           
+        
+        
+        
+        
+        
+        </div>
+        
+        <div class="card">
+            
+            <div class="card_content_lower">
+            <br>
+                <p>
+                While the benefits of a more connected, digital world and better more usable products are inarguable. These benefits have perhaps eclipsed the potential repercussions of this new digital and information age. With the focus on treating humans as users and creating the most habit-forming product, product designers risk creating products that nurture dependency instead of providing a solution to human problems.
+                </p>
+                
+                <p>
+                
+                Such vast improvements in technology should come with significant improvements in human capabilities however this has not been the case. While digital products offer convenience they often fall short of improving human lives. In 2018 the average person worldwide spends one hundred and thirty-five minutes per day interacting with social media products. The world is more connected today than ever before. However, issues such as loneliness and depression are on the rise. The average person in the UK spends almost nine hours on digital devices per day. Yet as of this year, four million people are long-term users of prescription antidepressant medications in England alone. With English pharmacies reporting a record sixty-four million items of antidepressants being dispensed in 2016; one hundred and eight percent more than in 2006. 
+
+                
+                
+                
+                </p>
+                
+                
+                <p>
+                Research has identified a correlation between social media usage and depression and loneliness. Melissa G. Hunt a psychologist at the University of Pennsylvania states that “using less social media than you normally would lead to significant decreases in both depression and loneliness”.  The correlation between social media usage and increased feelings of loneliness may seem ironic. However, this is just one example of how some of the digital products we use can appeal to our psychological motivations and emotions but do not fulfill them. Nevertheless, without fulfilling any true purpose or providing any viable solution to a human need, social media platforms, applications, and other digital products have become so deeply embedded in daily routines that they could be considered a core aspect of societal behaviour.
+                
+                </p>
+                
+                <p>
+                Disagree? What was the first thing you did when you woke up this morning? Did you brush your teeth? Eat breakfast? Take a shower? Or perhaps check your smartphone? For decades the societal norms of the western world have defined the action of brushing one’s teeth as the first action to be completed upon waking up in the morning as part of a daily routine. However, chances are you are in the eighty percent of the population who check their smartphone within fifteen minutes of waking up. With forty-six percent of Americans admitting that they check their smartphones even before they get out of bed. Moreover, it is very likely that checking your smartphone is also the last action you perform before falling asleep at night.
+                
+                </p>
+                
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+            
+            </div>
+        
+        
+        </div>
+        
+        
+        <div class="card" id="psych">
+            <div class="card_img section2_img">
+            
+               <img class="bank"
+                    src="images/bank.png">
+                
+            
+            </div>
+            
+            
+            
+            
+            <div class="card_content_lower">
+                
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+            <h1>
+                The Psychology of Delight
+            </h1>
+                
+            <p>
+              Whether we care to admit it or not digital products have become a significant part of our lives and daily routines, we are hooked. Many of these digital products provide convenience, fulfill a need or provide a solution to a problem. However many of the products that we invest the most time and energy into do not. So why do we use them? We can better understand human behaviour and how digital product designers can encourage habitual behaviours in users by understanding the psychology behind human motivation and needs.  
+            </p>
+                
+                <p>
+              In his paper “ A Theory of Human Motivation” American psychologist Abraham Maslow theorised that human beings have a psychological hierarchy of needs. The foremost of which are basic human or physiological needs which consist of requirements for human survival such as food, water and sleep. Physiological needs are followed by safety requirements, employment, security and shelter. Love and belonging needs follow, which fulfill our need for social interaction, relationships, intimacy, family and sense of community. Succeeding our social needs are esteem needs that nurture self-esteem and feeds the human longing for acceptance, approval, respect and recognition. Finally, Maslow defined self-actualization needs as the final group in the hierarchy of human needs, which consists of intellectual needs, creative needs and the desire to fulfill one’s full potential, to achieve mastery.  
+            </p>
+                
+            <p>
+            Maslow surmised that human actions and behaviours are motivated by this hierarchy of needs. That human motivation and behaviours occur in a hierarchical motion, in that basic needs must be met before people become motivated to ascend the hierarchy to fulfill progressively more complex needs. While many have disputed Maslow’s hierarchy of needs, stating the argument that different cultures and different individuals may be motivated to varying extents by different needs and desires; it provides a framework for understanding basic human behaviour and motivation at a high level.    
+                
+            </p>
+                
+        
+        </div>
+            
+            
+        
+        
+        </div>
+        
+        
+        <div class="card">
+            <div class="card_content_lower">
+            <br>
+            
+            <p>
+            Most people in the western world or more relevantly most people who use digital products have most likely fulfilled their most basic physiological and security needs for food, water, shelter, employment etc. It makes sense then that the digital products we invest the most time in are those that appeal to our psychological needs for belonging, community acceptance, approval etc.
+            </p>
+                
+            <p>
+            Most people in the western world or more relevantly most people who use digital products have most likely fulfilled their most basic physiological and security needs for food, water, shelter, employment etc. It makes sense then that the digital products we invest the most time in are those that appeal to our psychological needs for belonging, community acceptance, approval etc.
+            </p>
+                
+            <p>
+            This year the top ten most used smartphone applications in the United Kingdom in order of most used first are as follows:  Facebook, WhatsApp, Gmail, Instagram, Google Chrome, Facebook Messenger, Twitter, Youtube, Google maps and eBay. While dating apps made up three of the top ten apps by consumer spending last year. Digital products such as tinder have transformed the way in which people meet and form relationships by transcending many of the physical barriers associated with encountering and meeting new people. Launched in 2012 just two years later in 2014 Tinder was recording more than a billion swipes a day and currently boasts an average of 1.6 billion swipes per day. In 2017 Tinder recorded a monthly average user rate of fifty-seven million. Yet in 2018 only eight percent of people report meeting their significant others on dating apps and online, while forty percent of couples still report meeting through friends. Tinder is a perfect example of a digital product that has achieved immense success, garnering a massive, frequently returning user base; without effectively serving it’s perceived and intended purpose of establishing romantic connections.    
+                
+            </p>
+                
+            <p>
+            While the top ten most used smartphone applications probably came of little surprise. It is a more interesting insight considering that statistics showed that the top five smartphone applications that people in the UK consider to be most useful are: Google Maps, WhatsApp, Google Chrome and Facebook. It may seem illogical that the digital products that people use the most do not align stringently with the products that people find most useful. However, the usefulness of a product does not define the success of a product. 
+    
+            </p>
+            <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+            </div>
+        
+        </div>
+        
+        <div class="card quote_card">
+            
+            <div class=" card_content_lower">
+                <br><br>
+                    <blockquote>
+                    “There is no eleventh commandment that says the best product wins”
+                    </blockquote>
+
+                    <p>
+                    <span>Nir Eyal,</span> Hooked : How to build habit forming products
+                    </p>
+        
+                </div>
+        </div>
+        
+        <div class="card">
+            <div class="card_content_lower">
+            <br>
+            <p>
+                A deep understanding of human motivations allows product designers to create products that cleverly exploit human psychology. By appealing to user’s needs, desires and motivations these products encourage habitual behaviour in their users. Facilitating repetitive hook cycles to keep their users engaged, ensuring that they will return. The immense success of these digital products can be in part attributed to their ability to exploit their user’s inherent desire for belonging, sense of community, acceptance and love. These products expertly fuel this desire with anticipation, providing momentary stimulation in the form of dopamine and oxytocin boosts, but never truly succeed in fulfilling this need. Studies have shown a correlation between prolonged use of social media and feelings of isolation, inadequacy and low mood. Reigniting and perhaps intensifying that innate desire that drove users to pick up and start scrolling in the first place.    
+            </p>
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+          
+            
+            
+            </div>
+        
+        </div>
+        
+      
+
+        
+    </section>
+        
+        
+    <section>
+        
+        
+        
+        
+      <div class="card" id="manip">
+            
+            
+            <div class="card_img section2_img">
+            
+               <img class="bank"
+                    src="images/bank.png">
+                
+            
+            </div>
+            
+            <div class="card_content_lower">
+            <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+                <h1>
+                Manipulative by Design
+                </h1>
+                
+                <p>
+                The best product or the most useful product is not always the most successful product. As illustrated by Nir Eyal in his book, Hooked, how to build habit-forming products. In his book, Nir explains that the most successful products are ones that can encourage habitual behaviour in their users by implementing consecutive hook cycles. A hook cycle is an experience designed to connect the user’s problems to the solution that a digital product provides, with enough frequency to subconsciously form a habit. The hook cycle consists of four stages, the trigger, the action, variable reward and investment. 
+
+                </p>
+            
+            </div>
+            
+        </div>   
+        
+        
+        <div class="card" id="trigger">
+            <div class="card_content_lower">
+                <br><br>
+                <h1>
+                The Trigger
+                </h1>
+                
+                <p>
+                The first stage of the hook cycle is the trigger stage, there are two main types of triggers external triggers and internal triggers. External triggers exist in the form of calls to action that prompt us to complete a certain task such as an alert or a push notification. These triggers communicate the information users need to perform a task. They instruct and consciously prompt users to engage with a product. This is the initial step in building the habit, the long-term goal of external triggers is to nurture a subconscious response in the user that does not require any prompt or call to action, a habit. 
+                </p>
+                
+                <p>
+                Internal triggers are subconscious feelings, emotions or situations that prompt a learned action or behaviour. Have you ever found yourself lost while trying to find an address or location that you have never visited before? If so it is likely that the first thing you did was open up google maps. In moments of uncertainty and doubt or perhaps to settle a dispute amongst friends you have uttered the familiar phrase “just google it”. If you regularly commute to work you are probably familiar with the painful monotony as you wait for your stop to arrive. Chances are you have attempted to combat that painful boredom with some instant entertainment from youtube videos, scrolling through the Facebook timeline or perhaps engaging in a mobile game. In times of loneliness, you might have turned to facebook or twitter or other online social communities. Perhaps you have found yourself swiping on tinder to boost your self-esteem in times when you were feeling down in the dumps.
+                </p>
+                
+                <div class="interactive_buttons">
+                    
+                        <div class="love">
+                            <a onclick="clickCounter()">
+                            <img src="images/SVG/love.svg">
+                            </a>
+                        </div>
+                    
+                    
+                    
+                        
+                    <div class="like">
+                        <a onclick="clickCounter()">
+                            <img class="like" src="images/SVG/like.svg">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        
+        </div>
+        
+        <div class="card">
+        <div class="card_content_lower">
+          <br>  
+        <p>
+          Habit forming products attach themselves to their user’s emotions and situations. Most frequently they attach themselves to negative emotions, establishing themselves as the solution to quell the discomfort brought on by these negative feelings. A university study found that students who experienced feelings of depression spent significantly more time online and checked their email more frequently than students who did not suffer from depression. Research has shown that people who suffer from depression experience “negative valence states” more frequently than the rest of the population. In layman's terms, they feel down more often than what is usual. Consequently, these people go online, check email, get on Facebook to boost their mood and counter their feelings of depression.  
+            
+        </p> 
+            
+        <p>
+        This can also be applied to the correlation found between extensive use of social media products and feelings of loneliness, anxiety and depression. It is not perhaps that these digital products are the cause of these negative feelings and emotions. Rather they are the means by which people who experience these painful feelings attempt to alleviate them or through which they have subconsciously associated relief. It is through this same mechanism that some people develop substance dependencies. As Dr. Gabor Mate, physician and behaviour specialist explains. “The only difference is that substance addict is getting dopamine from an outside substance, whereas the behaviour addict is having it triggered from a particular behaviour.”    
+            
+        </p>
+            
+        <div class="interactive_buttons">
+                    
+                        <div class="love">
+                            <a onclick="clickCounter()">
+                            <img src="images/SVG/love.svg">
+                            </a>
+                        </div>
+                    
+                    
+                    
+                        
+                    <div class="like">
+                        <a onclick="clickCounter()">
+                            <img class="like" src="images/SVG/like.svg">
+                        </a>
+                    </div>
+                    
+                    
+                </div>    
+        </div>
+        </div>
+        
+        <div class="card quote_card q_card2">
+        <div class="card_content_lower">
+            <br><br>
+            <blockquote>
+            “The Addiction should be seen not as the problem, although it is a problem. It should be seen as the addict’s attempt to solve a problem in the first place”. 
+            </blockquote>
+            <p>
+            Dr. Gabor Mate, Culture High 2012
+            </p>
+        </div>
+            
+        </div>
+        
+        <div class="card">
+            
+            <div class="card_content_lower">
+            <br>
+            <p>
+              While many internal triggers stem from negative emotions this is not always the case. A moment of intense joy or happiness such as reuniting with a loved one may act as a trigger for you to chronicle the moment with Instagram, or share it on Snapchat or Facebook. Hearing a long-forgotten, favorite song or band might act as a trigger for you to identify it using Shazam or add it to a playlist with Spotify. In order to form these internal triggers, external triggers must prompt the user to enter the hook cycle with enough frequency that this action becomes learned and a subconscious association is formed.   
+            </p>
+                      <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+              
+            </div>
+        
+        </div>
+        
+        <div class="card">
+           <div class="card_img section2_img">
+            
+               <img class="bank"
+                    src="images/bank.png">
+            </div>
+            <div class="card_content_lower">       
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+                <h1>
+                The Action
+                </h1> 
+                <p>
+                The second phase in the hook cycle is the action phase, which can be defined as the simplest action performed by a user in anticipation of a reward. While triggers prompt the user to take action, they do not necessarily ensure that action will be taken. In order for the user to complete an action or for a behaviour to occur the user must have sufficient motivation and ability to take action in the presence of a trigger; as outlined by Dr. B. J. Fogg, Director of the Persuasive Technology Lab at Stanford University. The user must have sufficient motivation and ability at the time the trigger occurs to initiate the desired behaviour. If any of these factors are lacking the less likely it is for the desired behaviour to occur. Consider this, you find yourself scrolling through facebook or youtube in the throes of boredom when you come across the trigger of a play button on a video. The sufficient motivation for entertainment is present, as is the trigger. However, upon clicking play you are met with a 30-second advertisement before the video will commence. This inconvenience significantly decreases your ability to take the action easily and for many users outweighs the motivation causing them to abort the action altogether. The ability of a user to take action is concerned with usability, how easy it is for an action to be performed. 
+                </p>
+          
+                <p>
+                    The Facebook login API is a good example of how improved ability has resulted in an increase in the desired action. Before this API existed logging and signing up for web apps and services was a rather labour intensive task which included populating several text fields with personal information. Sometimes even requiring users to exit their browser window to confirm their identity through an email client. For many people, this was enough of an inconvenience to deter them from performing this task, unless the motivation was great enough. However, since it’s advent it has provided a swift and easy way for users to signup and log in and has been adopted by many products and services to make the action of logging in more accessible. 
+</p>
+                
+            </div>
+           
+        </div>
+        
+        <div class="card quote_card">
+            <div class="card_content_lower">
+                <br><br>
+            <blockquote>
+                “Any technology or product that significantly reduces the steps to complete a task will enjoy high adoption rates by the people it assists.” 
+            </blockquote>
+            <p>
+                Nir Eyal, Hooked, How to Build Habit-Forming Products.
+
+            </p>
+            </div>
+        </div>
+        
+        <div class="card">
+            
+            <div class="card_content_lower">
+            <br>
+            <p>
+              There are ways in which digital products can manipulate user’s motivation and ability to perform an action through heuristic techniques such as The scarcity effect and the endowed progress effect. The scarcity effect is a technique whereby the illusion of scarcity is created to increase the user’s motivation to perform a behaviour with more urgency. Travel and accommodation booking services such as Airbnb and booking.com use this effectively, with details such as “rare find, this property is normally booked” and “last room at this price’ to create a sense of urgency amongst their users. This effect pivots on the hypothesis of the loss aversion cognitive bias, which theorizes that people value avoiding loss more than acquiring gain, as demonstrated by Daniel Kahneman and Amos Tversky. The endowed progress effect is another technique to increase user motivation to perform an action by creating the illusion of progress towards a goal. This is illustrated by a study which seen two groups of people given punch cards which awarded a free car wash when all the holes had been punched. One group was given cards with eight squares while the other group was given cards with ten squares, two which had been already punched. Although both groups had the same number of squares to have punched the group who had ten squares with two already punched saw an 82 percent higher completion rate.   
+            </p>
+                
+             <p>
+                    
+                    These are powerful techniques which without doubt psychologically manipulate users to encourage certain behaviours. These techniques can easily be considered to be dark UX patterns, particularly in the case of the scarcity effect. Which when applied by companies like Wish and Amazon have been used to encourage reckless spending and impulse shopping in their users. However, the ability to motivate people so intensely could also be used for good. Progress meters on self-betterment products such as Fitbit and education platforms like Duolingo harness the power of the endowed progress effect. Encouraging their users to continue with their progress in pursuit of a goal.  Consider the same techniques applied to bill management, a digital product that can help new homeowners, students or perhaps universal credit recipients manage their finances. If the same urgency and motivation can be generated for the latter use cases perhaps it can be used to tackle real-world issues.</p>
+                      <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+              
+            </div>
+        
+        </div>
+        
+           <div class="card" id="vareward">
+           <div class="card_img section2_img">
+            
+               <img class="bank"
+                    src="images/bank.png">
+            </div>
+            <div class="card_content_lower">       
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+                <h1>
+                Variable Reward
+                </h1> 
+                <p>
+                The third stage in the hook cycle is the reward stage, the cathartic release of dramatic tension achieved from performing an intended action, often emphasized by delightful celebratory micro-interactions. During this stage, the user is rewarded by the solving of a problem. A form of operant conditioning the reward phase reinforces the motivation to perform the behaviour or complete the action which leads to the reward. Studies carried out in the 1940s by James Olds and Peter Milner found that during rewarding experiences and area of the brain known as the nucleus accumbens saw a spike in activity. During pleasurable and rewarding activities levels of dopamine in the nucleus accumbens rise significantly. More recent studies carried out by Stanford professor Brian Knutson have discovered that this area of the brain saw heightened activity during the anticipation of a reward, as opposed to when the reward was received. This finding showed that the method by which the brain motivates us to perform an action is by igniting the desire, by creating a craving. It is by this same mechanism that we are motivated to drink when dehydrated or to eat food when hungry. 
+                </p>
+          
+                <p>
+                    This anticipation and craving can be heightened by varying or randomising the rate at which rewards are distributed. This action prolongs the period of anticipation stimulating greater dopamine levels in the nucleus accumbens for longer periods of time. Reinforcing the desire for the reward and consequently the motivation to perform the desired behaviour. This was demonstrated by psychologist B.F Skinner in the 1950s when he conducted an experiment which saw pigeons perform the learned behaviour of pressing a lever to receive a pellet of food. Skinner then added variability, randomising the number of lever presses it took to dispense the food pellet. When implemented Skinner observed that variability resulted in a drastic increase in the rate the pigeons completed the desired behaviour. 
+</p>
+                
+            </div>
+           
+        </div>
+        
+          <div class="card">
+            
+            <div class="card_content_lower">
+            <br>
+            <p>
+             Nir Eyal proposes that there are three types of variable rewards, rewards of the tribe, rewards of the hunt and rewards of the self. Rewards of the tribe appeal to human social needs, the innate desire for community, acceptance and validation. Digital products that harness community features are able to expertly distribute variable rewards of the tribe. Social media products do this especially well, every like, comment, share and follow providing a variable reward of validation keeping users engaged. Rewards of the hunt appeal to the primal human fixation for the pursuit of resources. The same primal drives that compelled our ancestors to pursue wild game for survival drives us to scroll endlessly through our Facebook timeline in search for the variable reward of an entertaining post, video or thread. It is the same drive that entices gamblers to pay into slot machines for the prospect of a jackpot payout. Rewards of the self appeal to human self-esteem and self-actualisation needs. The desire for personal gratification, competence and a sense of mastery. Digital products that implement gamification techniques use variable rewards of the self to motivate users to engage with the product, giving users a sense of achievement and fulfillment by progressing through various levels and unlocking achievements. It is this same sense of achievement that gives us such satisfaction when we complete our to-do lists, or empty our inboxes. Digital products which offer infinite variability such as user-submitted content platforms like Dribbble, Reddit or youtube stand to experience the most success. As they constantly churn out an unpredictable, endless supply of variable rewards.  
+            </p>
+                
+             
+                      <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+              
+            </div>
+        
+        </div>
+        
+          <div class="card" id="invest">
+           <div class="card_img section2_img">
+            
+               <img class="bank"
+                    src="images/bank.png">
+            </div>
+            <div class="card_content_lower">       
+                <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+                <h1>
+                Investment
+                </h1> 
+                <p>
+                The final stage in the hook cycle is the investment phase, the investment phase serves to increase the likelihood of a future journey through the hook cycle. An investment is the stored value from a user interacting with a product that results in an appreciation of the product’s value to that user. For example, the more people you follow on Instagram the more content will be served to you. Alternatively the more followers you garner the greater influence and reach you will have. The more a user invests in a product the more valuable it becomes to them and thus the less likely they are to switch to an alternative product.
+                </p>
+          
+                
+                
+            </div>
+           
+        </div>
+        
+             <div class="card" id="conclusion">
+            
+            <div class="card_content_lower">
+            <br>
+            <p>
+             It is evident that the intense understanding of human psychology, needs and emotions that user centered product design enables can command great power over the users we design for. However, as a wise uncle once said: “with great power comes great responsibility”. As product designers and the creators of the future, we have a responsibility to ensure that we employ these techniques responsibly and ethically. It is clear to see that these techniques have the ability to manipulate and persuade certain behaviours in the users of products who employ them. They can be used to the detriment of users, nurturing addiction, encouraging irresponsible and impulsive behaviour. However, I believe that these techniques can be used to create products that better serve human needs and solve human problems. Airbnb’s head of User Experience Research and Design, notes how during a design thinking exercise it was discovered that the company’s product was not, as they had previously thought the platform but the experience of the trip itself. By aligning product solutions with user needs in this way I believe we can design digital products that enhance human capabilities rather than nurture dependence.
+ 
+            </p>
+                
+             
+                      <div class="interactive_buttons">
+                    
+
+                            <div class="love">
+                                <a onclick="clickCounter()">
+                                <img src="images/SVG/love.svg">
+                                </a>
+                            </div>
+
+
+
+
+                        <div class="like">
+                            
+                            <a onclick="clickCounter()">
+                                <img class="like" src="images/SVG/like.svg">
+                            </a>
+                        </div>
+
+
+                    </div>
+              
+            </div>
+        
+        </div>
+        
+        <a href="#bibliography">
+        <div class="button bib_btn">
+            
+            <p>View Bibliography</p>
+            
+        </div>
+        </a>  
+      
+        
+        
+            
+        
+    </section>
+        
+         </span>
+         
+    <section>
+         
+      <div class="card bib_card" id="bibliography">
+            
+            <div class="card_content_lower">
+            <br>
+            <p>
+             Hymas, C. (2018) A decade of smartphones: We now spend an entire day every week online | The Telegraph [online]
+            <br>
+            <a href="https://www.telegraph.co.uk/news/2018/08/01/decade-smartphones-now-spend-entire-day-every-week-online/">
+            <span class="link">
+            https://www.telegraph.co.uk/news/2018/08/01/decade-smartphones-now-spend-entire-day-every-week-online/
+            </span>
+            </a>
+ 
+            </p>
+                
+            <p>
+             Statista (2018) Daily time spent on social networking by internet users worldwide from 2012 to 2017 (in minutes) | The Statistics Portal [online]
+            <br>
+                
+            <a href="https://www.statista.com/statistics/433871/daily-social-media-usage-worldwide/">
+            <span class="link">
+            https://www.statista.com/statistics/433871/daily-social-media-usage-worldwide/
+            </span>
+            </a> 
+ 
+            </p>
+                
+            <p>
+             Campbell, D. (2017) NHS prescribed record number of antidepressants last year | The Guardian | Mental Health [online]
+            <br>
+                
+            <a href="https://www.theguardian.com/society/2017/jun/29/nhs-prescribed-record-number-of-antidepressants-last-year">
+            <span class="link">
+            https://www.theguardian.com/society/2017/jun/29/nhs-prescribed-record-number-of-antidepressants-last-year
+            </span>
+            </a>
+            </p>
+            
+            <p>
+             Dodgson, L. (2018) There's even more evidence that social media increases depression and loneliness | Insider | Health [online]
+            <br>
+                
+            <a href="https://www.thisisinsider.com/social-media-link-depression-loneliness-2018-11">
+            <span class="link">
+                
+            https://www.thisisinsider.com/social-media-link-depression-loneliness-2018-11
+            </span>
+            </a>
+            </p>
+                
+            <p>
+             Pinkham, R. (2018) 80% of Smartphone Users Check Their Phones Before Brushing Their Teeth … And Other Hot Topics | Constant Contact [online]
+            <br>
+            <a href="ttps://blogs.constantcontact.com/smartphone-usage-statistics/#">
+            <span class="link">
+            https://blogs.constantcontact.com/smartphone-usage-statistics/#
+            </span>
+            </a>
+ 
+            </p>
+                
+            <p>
+             Keating, L. (2017) Survey Finds Most People Check Their Smartphones Before Getting Out Of Bed In The Morning | Tech Times [online]
+            <br>
+                
+            <a href="https://www.techtimes.com/articles/199967/20170302/survey-finds-people-check-smartphones-before-getting-out-bed.htm">
+            <span class="link">
+            https://www.techtimes.com/articles/199967/20170302/survey-finds-people-check-smartphones-before-getting-out-bed.htm
+            </span>
+                </a>
+ 
+            </p>
+                
+            <p>
+             Bradley, S. (2010) Designing For A Hierarchy Of Needs | Smashing Magazine [online]
+            <br>
+                
+            <a href="https://www.smashingmagazine.com/2010/04/designing-for-a-hierarchy-of-needs/">
+            <span class="link">
+            https://www.smashingmagazine.com/2010/04/designing-for-a-hierarchy-of-needs/
+
+            </span>
+            </a>
+ 
+            </p>
+                
+            <p>
+             Maslow, A.H. (1943) A Theory of Human Motivation | In Psychological Review, 50 (4), 430-437. Washington, DC: American Psychological Association.
+            <br>
+            
+ 
+            </p>
+                
+            <p>
+             Agency (2017) UK's Most Popular 20 Phone Apps From Instagram to Netflix | The Independent [online]
+            <br>
+            <a href="https://www.independent.co.uk/life-style/gadgets-and-tech/news/uk-phone-apps-most-popular-smartphone-facebook-instragram-netflix-a8084216.html">
+            <span class="link">
+            https://www.independent.co.uk/life-style/gadgets-and-tech/news/uk-phone-apps-most-popular-smartphone-facebook-instragram-netflix-a8084216.html
+            </span>
+            </a>
+            </p>
+                
+            <p>
+             Editors (2017) Why the Best Product Doesn’t Always Win—and Why That’s a Good Thing | American Express OPEN Forum | heleo.com [online]
+            <br>
+            <a href="https://heleo.com/conversation-why-the-best-product-doesnt-always-win-and-why-thats-a-good-thing/15005/">
+            <span class="link">
+            https://heleo.com/conversation-why-the-best-product-doesnt-always-win-and-why-thats-a-good-thing/15005/
+            </span>
+            </a>
+            </p>
+                
+                
+            <p>
+             Belton, P. (2018) Love and dating after the Tinder revolution | BBC | Business [online]
+            <br>
+            <a hfref="https://www.bbc.co.uk/news/business-42988025">
+            <span class="link">
+            https://www.bbc.co.uk/news/business-42988025
+            </span>
+            </a>
+            </p>
+                
+                
+            <p>
+             Emery, L.M. (2018) The Most Popular Ways People Are Meeting Their Significant Others In 2018 | Bustle [online]
+            <br>
+            <a href="https://www.bustle.com/p/the-most-popular-ways-people-are-meeting-their-significant-others-in-2018-8075828">
+            <span class="link">
+            https://www.bustle.com/p/the-most-popular-ways-people-are-meeting-their-significant-others-in-2018-8075828
+            </span>
+            </a>
+            </p>
+                
+                
+            <p>
+             Culture High (2018) [video] Available at:
+            <br>
+            <a href="https://www.youtube.com/watch?v=zLT6AFsTm74&t=540s">
+            <span class="link">
+            https://www.youtube.com/watch?v=zLT6AFsTm74&t=540s
+            </span>
+          </a>
+            </p>
+                
+                
+            <p>
+             Mate, G. (2014) | What is Addiction [video] Available at:
+            <br>
+            <a href="https://www.youtube.com/watch?v=T5sOh4gKPIg">
+            <span class="link">
+            https://www.youtube.com/watch?v=T5sOh4gKPIg
+            </span>
+            </a>
+            </p>
+                
+             
+                      
+              
+            </div>
+        
+        </div>
+           
+    
+    
+    </section>
+        
+        </span>   
+        
+        
+        
+        
+        
+        
+        
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>      
+        
+        
+        
+   <script>
+$(document).ready(function(){
+  $("#button").click(function(){
+    $("#content_wrapper2").removeClass("content_wrap2");
+  });
+});
+</script>  
+        
+        
+        
+        
+        
+<script>
+$(document).ready(function(){
+  $("a").click(function(){
+    $(".lovetab").toggleClass("is_active");
+  });
+});
+</script>
+        
+        
+        
+        
+        
+        
+<script>
+$(document).ready(function(){
+  $("a").click(function(){
+    $(".brain").addClass("invisible");
+  });
+});
+</script>
+        
+        
+        
+<script>
+$(document).ready(function(){
+  $("a").click(function(){
+    $(".happy_brain").removeClass("invisible");
+  });
+});
+</script>
+     
+     
+<script>
+$(document).ready(function(){
+  $("a").click(function(){
+    $(".love_btn").addClass("invisible");
+  });
+});
+</script>
+        
+        
+
+<script>
+$(document).ready(function(){
+  $("a").click(function(){
+    $(".colors").removeClass("invisible");
+  });
+});
+</script>
+        
+        
+<script>
+$(document).ready(function(){
+  $(".bib_btn").click(function(){
+    $(".card").removeClass("bib_card");
+  });
+});
+</script>
+        
+        
+
+        
+      
+        
+        
+        
+        
+<script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = localStorage.clickcount + " Likes";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+        
+        
+        
+        
+        
+        
+<script>
+    
+    
+
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    
+</script>     
+        
+        
+</body>
+
+</html>
