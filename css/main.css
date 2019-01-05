@@ -73,6 +73,7 @@ h1 {
     font-size: 2em;
     line-height: 1.25em;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 
 
@@ -83,7 +84,7 @@ h2 {
     font-size: 1.15em;
     margin-bottom: 20px;
     line-height: 1.5em;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .menu_title {
@@ -97,7 +98,7 @@ h2 {
 }
 
 p   {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1em;
     line-height: 1.5em;
     margin: 13px 0;
@@ -521,7 +522,7 @@ transition: .3s;}
   color: #fff;
   display: block;
   transition: 0.3s;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 100;
     font-size: 1.15em;
     margin-top: 2px;
